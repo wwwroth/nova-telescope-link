@@ -1,11 +1,11 @@
 <?php
 
-namespace Alexpgates\HorizonLink;
+namespace Jackcruden\TelescopeLink;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
-class HorizonLink extends Tool
+class TelescopeLink extends Tool
 {
     /**
      * Perform any tasks that need to happen when the tool is booted.
@@ -14,8 +14,7 @@ class HorizonLink extends Tool
      */
     public function boot()
     {
-        Nova::script('horizon-link', __DIR__.'/../dist/js/tool.js');
-        // Nova::style('horizon-link', __DIR__.'/../dist/css/tool.css');
+        Nova::script('telescope-link', __DIR__.'/../dist/js/tool.js');
     }
 
     /**
@@ -25,6 +24,6 @@ class HorizonLink extends Tool
      */
     public function renderNavigation()
     {
-        return view('horizon-link::navigation');
+        return view('telescope-link::navigation');
     }
 }

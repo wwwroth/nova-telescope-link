@@ -1,16 +1,14 @@
-# Laravel Nova Horizon Link
+# Laravel Nova Telescope Link
 
-This [Nova](https://nova.laravel.com/) tool adds a link to your project's [Laraval Horizon](https://horizon.laravel.com/) dashboard in your Nova sidebar.
+This [Nova](https://nova.laravel.com/) tool adds a link to your project's [Laraval Telescope](https://github.com/laravel/telescope/) dashboard in your Nova sidebar.
 
 That's all it does!
-
-![screenshot of Laravel Nova Horizon Link tool](https://data.alexpgates.com/images/nova-horizon-link/screenshot.png)
 
 ## Installation
 
 Install via [Composer](https://getcomposer.org/):
 ```
-composer require alexpgates/horizon-link
+composer require jackcruden/telescope-link
 ```
 
 Register the tool in `app/Providers/NovaServiceProvider`:
@@ -19,7 +17,7 @@ Register the tool in `app/Providers/NovaServiceProvider`:
 public function tools()
 {
     return [
-        new \Alexpgates\HorizonLink\HorizonLink,
+        new \Jackcruden\TelescopeLink\TelescopeLink,
     ];
 }
 ```

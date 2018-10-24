@@ -1,5 +1,5 @@
 {
-    "name": "alexpgates/horizon-link",
+    "name": "jackcruden/telescope-link",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Alexpgates\\HorizonLink\\": "src/"
+            "Jackcruden\\TelescopeLink\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alexpgates\\HorizonLink\\ToolServiceProvider"
+                "Jackcruden\\TelescopeLink\\ToolServiceProvider"
             ]
         }
     },

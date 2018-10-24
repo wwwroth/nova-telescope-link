@@ -1,8 +1,8 @@
 Nova.booting((Vue, router) => {
     router.addRoutes([
         {
-            name: 'horizon-link',
-            path: '/horizon-link',
+            name: 'telescope-link',
+            path: '/telescope-link',
             component: require('./components/Tool'),
         },
     ])
