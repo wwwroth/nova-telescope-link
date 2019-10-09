@@ -17,7 +17,7 @@ Register the tool in `app/Providers/NovaServiceProvider`:
 public function tools()
 {
     return [
-        new \Jackcruden\TelescopeLink\TelescopeLink,
+        new \wwwroth\TelescopeLink\TelescopeLink,
     ];
 }
 ```
