@@ -8,7 +8,7 @@ This [Nova](https://nova.laravel.com/) tool adds a link to your project's [Larav
 
 Install via [Composer](https://getcomposer.org/):
 ```
-composer require wwwroth/telescope-link
+composer require wwwroth/nova-telescope-relative-link
 ```
 
 Register the tool in `app/Providers/NovaServiceProvider`:
